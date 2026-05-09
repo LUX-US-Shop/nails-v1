@@ -10,8 +10,13 @@
   <meta property="og:description" content="Cold traffic? Start here: viral French tips, BTArtbox bestsellers, and Glamnetic picks real shoppers repurchase. Click for the full top 10.">
   <meta property="og:url" content="https://nails-v1.pages.dev">
   <meta property="og:site_name" content="GlamFinds">
+  <meta property="og:image" content="https://nails-v1.pages.dev/1.webp">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="GlamFinds — Top 10 Press-On Nails on Amazon 2026 (Salon Look, Zero Dry Time)">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Best Press-On Nails on Amazon — Top 10 for 2026">
+  <meta name="twitter:image" content="https://nails-v1.pages.dev/1.webp">
   <meta name="twitter:description" content="Beginner-friendly press-ons with strong hold and realistic finishes. Amazon affiliate picks with verified reviews.">
   <meta name="pinterest-rich-pin" content="true">
   <meta name="p:domain_verify" content="c879bcd1dcf268d768060ae260d9f797">
@@ -213,7 +218,17 @@ body::before{
 }
 @keyframes shimmer{0%{left:-100%}60%,100%{left:110%}}
 .btn-primary:hover{transform:scale(1.03);box-shadow:0 14px 50px rgba(244,114,182,.5)}
-.hero-cta-note{font-size:11px;color:var(--text3)}
+.hero-cta-note{font-size:11px;color:var(--text3);max-width:330px;line-height:1.35}
+.btn-secondary{
+  display:inline-flex;align-items:center;justify-content:center;
+  min-height:46px;padding:13px 22px;
+  color:var(--text);font-size:14px;font-weight:700;
+  border:1px solid rgba(255,255,255,.18);
+  border-radius:50px;background:rgba(255,255,255,.06);
+}
+.btn-secondary:active{transform:scale(0.98)}
+.paid-note{display:block;margin-top:7px;font-size:10px;line-height:1.35;color:var(--text3);text-align:center}
+.exit-paid-note{display:block;margin-top:-10px;margin-bottom:16px;font-size:10px;color:var(--text3)}
 
 /* ── Disclosure ──────────────────────────────────────────── */
 .disclosure{
@@ -704,14 +719,15 @@ body::before{
       <div class="hero-badge">Skip the salon — save up to <strong>$60</strong> per manicure</div>
     </div>
     <div class="hero-cta-wrap">
-      <a href="#picks" class="btn-primary">Show me the best press-ons →</a>
-      <span class="hero-cta-note">No signup needed · Amazon links</span>
+      <a href="https://www.amazon.com/dp/B099FK66CL?tag=beautyfi06ecc-20" class="btn-primary" target="_blank" rel="sponsored nofollow noopener noreferrer" data-offer="hero-top-pick">See top nail pick on Amazon →</a>
+      <a href="#picks" class="btn-secondary">Compare all 10 picks</a>
+      <span class="hero-cta-note">Paid affiliate link · I may earn a commission at no extra cost to you.</span>
     </div>
   </div>
 </section>
 
 <div class="disclosure wrap mt24" data-aos="fade-up">
-  As an Amazon Associate, GlamFinds earns from qualifying purchases. Affiliate links may earn us a commission at no extra cost to you.
+  As an Amazon Associate I earn from qualifying purchases. This page contains paid affiliate links; I may earn a commission at no extra cost to you.
 </div>
 
 <!-- Section 1: Featured Picks -->
@@ -740,9 +756,10 @@ body::before{
       <span class="cf-price">$21.99</span>
       <span class="cf-rt">4.7 · 18K+ reviews</span>
     </div>
-    <a href="https://www.amazon.com/dp/B099FK66CL?tag=beautyfi06ecc-20" class="cf-btn" target="_blank" rel="nofollow noopener noreferrer">
+    <a href="https://www.amazon.com/dp/B099FK66CL?tag=beautyfi06ecc-20" class="cf-btn" target="_blank" rel="sponsored nofollow noopener noreferrer">
       Check Price <span class="cf-btn-arrow">→</span>
     </a>
+    <span class="paid-note">Paid link - I may earn a commission.</span>
     <span class="cf-prime">✦ Usually ships with Prime</span>
   </div>
 </article>
@@ -763,9 +780,10 @@ body::before{
       <span class="cf-price">$17.49</span>
       <span class="cf-rt">4.6 · 14K reviews</span>
     </div>
-    <a href="https://www.amazon.com/dp/B0G514VCHP?tag=beautyfi06ecc-20" class="cf-btn" target="_blank" rel="nofollow noopener noreferrer">
+    <a href="https://www.amazon.com/dp/B0G514VCHP?tag=beautyfi06ecc-20" class="cf-btn" target="_blank" rel="sponsored nofollow noopener noreferrer">
       Check Price <span class="cf-btn-arrow">→</span>
     </a>
+    <span class="paid-note">Paid link - I may earn a commission.</span>
     <span class="cf-prime">✦ Usually ships with Prime</span>
   </div>
 </article>
@@ -785,9 +803,10 @@ body::before{
       <span class="cr-price">$15.99</span>
       <span class="cr-rt">4.5 · 11K reviews</span>
     </div>
-    <a href="https://www.amazon.com/dp/B0F4KJ1WKN?tag=beautyfi06ecc-20" class="cr-btn" target="_blank" rel="nofollow noopener noreferrer">
+    <a href="https://www.amazon.com/dp/B0F4KJ1WKN?tag=beautyfi06ecc-20" class="cr-btn" target="_blank" rel="sponsored nofollow noopener noreferrer">
       Check Price →
     </a>
+      <span class="paid-note">Paid link - I may earn a commission.</span>
   </div>
 </article>
 
@@ -804,9 +823,10 @@ body::before{
       <span class="cr-price">$18.49</span>
       <span class="cr-rt">4.6 · 9K reviews</span>
     </div>
-    <a href="https://www.amazon.com/dp/B0G5114KDF?tag=beautyfi06ecc-20" class="cr-btn" target="_blank" rel="nofollow noopener noreferrer">
+    <a href="https://www.amazon.com/dp/B0G5114KDF?tag=beautyfi06ecc-20" class="cr-btn" target="_blank" rel="sponsored nofollow noopener noreferrer">
       Check Price →
     </a>
+      <span class="paid-note">Paid link - I may earn a commission.</span>
   </div>
 </article>
     </div>
@@ -890,9 +910,10 @@ body::before{
       <span class="cr-price">$16.99</span>
       <span class="cr-rt">4.5 · 10K reviews</span>
     </div>
-    <a href="https://www.amazon.com/dp/B0G4ZR7WNR?tag=beautyfi06ecc-20" class="cr-btn" target="_blank" rel="nofollow noopener noreferrer">
+    <a href="https://www.amazon.com/dp/B0G4ZR7WNR?tag=beautyfi06ecc-20" class="cr-btn" target="_blank" rel="sponsored nofollow noopener noreferrer">
       Check Price →
     </a>
+      <span class="paid-note">Paid link - I may earn a commission.</span>
   </div>
 </article>
 
@@ -909,9 +930,10 @@ body::before{
       <span class="cr-price">$19.99</span>
       <span class="cr-rt">4.4 · 7.5K reviews</span>
     </div>
-    <a href="https://www.amazon.com/dp/B0FNWTNXM3?tag=beautyfi06ecc-20" class="cr-btn" target="_blank" rel="nofollow noopener noreferrer">
+    <a href="https://www.amazon.com/dp/B0FNWTNXM3?tag=beautyfi06ecc-20" class="cr-btn" target="_blank" rel="sponsored nofollow noopener noreferrer">
       Check Price →
     </a>
+      <span class="paid-note">Paid link - I may earn a commission.</span>
   </div>
 </article>
 
@@ -928,9 +950,10 @@ body::before{
       <span class="cr-price">$22.99</span>
       <span class="cr-rt">4.4 · 22K reviews</span>
     </div>
-    <a href="https://www.amazon.com/dp/B0CM6FJX1X?tag=beautyfi06ecc-20" class="cr-btn" target="_blank" rel="nofollow noopener noreferrer">
+    <a href="https://www.amazon.com/dp/B0CM6FJX1X?tag=beautyfi06ecc-20" class="cr-btn" target="_blank" rel="sponsored nofollow noopener noreferrer">
       Check Price →
     </a>
+      <span class="paid-note">Paid link - I may earn a commission.</span>
   </div>
 </article>
     </div>
@@ -989,9 +1012,10 @@ body::before{
       <span class="cr-price">$17.99</span>
       <span class="cr-rt">4.5 · 8K reviews</span>
     </div>
-    <a href="https://www.amazon.com/dp/B0G51BY3Y9?tag=beautyfi06ecc-20" class="cr-btn" target="_blank" rel="nofollow noopener noreferrer">
+    <a href="https://www.amazon.com/dp/B0G51BY3Y9?tag=beautyfi06ecc-20" class="cr-btn" target="_blank" rel="sponsored nofollow noopener noreferrer">
       Check Price →
     </a>
+      <span class="paid-note">Paid link - I may earn a commission.</span>
   </div>
 </article>
 
@@ -1008,9 +1032,10 @@ body::before{
       <span class="cr-price">$15.49</span>
       <span class="cr-rt">4.6 · 12K reviews</span>
     </div>
-    <a href="https://www.amazon.com/dp/B0CC2S4ZNR?tag=beautyfi06ecc-20" class="cr-btn" target="_blank" rel="nofollow noopener noreferrer">
+    <a href="https://www.amazon.com/dp/B0CC2S4ZNR?tag=beautyfi06ecc-20" class="cr-btn" target="_blank" rel="sponsored nofollow noopener noreferrer">
       Check Price →
     </a>
+      <span class="paid-note">Paid link - I may earn a commission.</span>
   </div>
 </article>
 
@@ -1027,9 +1052,10 @@ body::before{
       <span class="cr-price">$28.99</span>
       <span class="cr-rt">4.5 · 6K reviews</span>
     </div>
-    <a href="https://www.amazon.com/dp/B0D5MFZ4JK?tag=beautyfi06ecc-20" class="cr-btn" target="_blank" rel="nofollow noopener noreferrer">
+    <a href="https://www.amazon.com/dp/B0D5MFZ4JK?tag=beautyfi06ecc-20" class="cr-btn" target="_blank" rel="sponsored nofollow noopener noreferrer">
       Check Price →
     </a>
+      <span class="paid-note">Paid link - I may earn a commission.</span>
   </div>
 </article>
     </div>
@@ -1097,8 +1123,8 @@ body::before{
 
 <!-- Footer -->
 <footer class="footer">
-  <p>© 2026 GlamFinds. As an Amazon Associate, we earn from qualifying purchases.</p>
-  <p><a href="#">Privacy Policy</a> · <a href="#">Disclaimer</a></p>
+  <p>© 2026 GlamFinds. As an Amazon Associate I earn from qualifying purchases. This page contains paid affiliate links; I may earn a commission at no extra cost to you.</p>
+  <p><a href="/privacy/">Privacy Policy</a> · <a href="/terms/">Terms</a> · <a href="/disclaimer/">Affiliate Disclaimer</a> · <a href="/contact/">Contact</a></p>
   <p style="margin-top:8px;font-size:10px;color:var(--text3)">GlamFinds is an independent review site. We only recommend products we'd feel good giving to a friend.</p>
 </footer>
 
@@ -1107,13 +1133,13 @@ body::before{
   <div class="trust-item"><span>🔒</span> Secure</div>
   <div class="trust-item"><span>★</span> 4.3+ Avg</div>
   <div class="trust-item"><span>⚡</span> Prime</div>
-  <div class="trust-item"><span>✓</span> Verified Reviews</div>
+  <div class="trust-item"><span>✓</span> Review-based picks</div>
   <div class="trust-item"><span>🛒</span> Amazon</div>
 </div>
 
 <!-- Mobile sticky CTA -->
 <div class="mobile-cta">
-  <a href="#picks">Show best press-on pick →</a>
+  <a href="https://www.amazon.com/dp/B099FK66CL?tag=beautyfi06ecc-20" target="_blank" rel="sponsored nofollow noopener noreferrer">See top nail pick on Amazon →</a>
 </div>
 
 <!-- Exit intent -->
@@ -1123,8 +1149,9 @@ body::before{
     <div class="exit-emoji">💅</div>
     <h2 class="exit-title">Wait! #1 press-on shoppers rebuy</h2>
     <p class="exit-body">Our top French-tip set — 4.5★+ energy, strong brand trust, and a finish that reads expensive on Zoom and IRL.</p>
+    <span class="exit-paid-note">Paid affiliate link - I may earn a commission.</span>
     <a href="https://www.amazon.com/dp/B099FK66CL?tag=beautyfi06ecc-20"
-       class="exit-btn" target="_blank" rel="nofollow noopener noreferrer"
+       class="exit-btn" target="_blank" rel="sponsored nofollow noopener noreferrer"
        onclick="closeExit()">
       Show me →
     </a>
